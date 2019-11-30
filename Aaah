@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Aaah {
+	public static void main(String[] args) {
+		 Scanner scan = new  Scanner(System.in);
+		 String a, b;
+		 
+	
+		
+		 a = scan.next();
+		 b = scan.next();
+			 
+		 if(a.length()>b.length()) {
+			 System.out.println("go");
+		 }else if(a.length()<b.length()){
+			 System.out.println("no");
+		 }else {
+			 System.out.println("go");
+		 }
+		
+		 
+	
+		scan.close();
+	}
+}
