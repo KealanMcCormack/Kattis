@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Not finished, needs work before it will be accepted
 public class Phdcandidate {
 public static void main(String[] args) {
 		
